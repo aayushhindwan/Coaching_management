@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "796849474737",
+    "firebase_url": "https://star-75094.firebaseio.com",
+    "project_id": "star-75094",
+    "storage_bucket": "star-75094.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796849474737:android:6fc050dd51b0bf23",
+        "android_client_info": {
+          "package_name": "com.example.aayushhindwan.star"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796849474737-q8enkk358qc39r567nll635kg57qnkfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjAilaS6_DLl0jdDz_ezPxMUV3x4iIHn4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">star</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="image">image</string>
+    <string name="tcimage">TEACHER</string>
+    <string name="btlogin">LOGIN</string>
+    <string name="signup">SIGNUP</string>
+
+</resources>

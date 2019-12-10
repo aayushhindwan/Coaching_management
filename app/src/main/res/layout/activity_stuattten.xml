@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stuattten"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/tx"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="16dp"
+        android:text="green:present\nred:absent"
+        android:textColor="#8866bb"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/cls"
+        app:layout_constraintEnd_toStartOf="@+id/present"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/present"
+        android:layout_width="93dp"
+        android:layout_height="94dp"
+        android:layout_marginEnd="16dp"
+        android:background="#0fee00"
+        android:text="P"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/absent"
+        app:layout_constraintEnd_toStartOf="@+id/absent"
+        app:layout_constraintStart_toEndOf="@+id/tx"
+        app:layout_constraintTop_toTopOf="@+id/absent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/absent"
+        android:layout_width="72dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="63dp"
+        android:background="#ff0000"
+        android:text="A"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/listt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/present"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ListView
+        android:id="@+id/listt"
+        android:layout_width="242dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/absent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/cls"
+        android:layout_width="95dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="11dp"
+        android:ems="10"
+        android:hint="Class"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/listt"
+        app:layout_constraintEnd_toStartOf="@+id/present"
+        app:layout_constraintTop_toBottomOf="@+id/tx" />
+
+</android.support.constraint.ConstraintLayout>
